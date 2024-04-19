@@ -94,3 +94,33 @@ M = (m/z) \times z - z \times m_e
 \]
 
 其中，\(m/z\) 是测定的质荷比，\(z\) 是电荷数，\(m_e\) 是电子质量。
+
+
+
+
+from Bio.Seq import Seq
+from Bio.SeqUtils import molecular_weight
+from Bio import SeqIO
+import random
+
+# 模拟数据：一个蛋白质序列
+protein_sequence = "MKWVTFISLLFLFSSAYSRGVFRRDTHKSEIAHRFKDLGEEHFKGLVLIAFSQYLQQCPFDEHVKLVNELTEFAKTCVADESAENCDKSLHTLFGDKLCTVATLRETYGEMADCCAKQEPERNECFLSHKDDSPDLPKLKPDPNTLCDEFKADEKKFWGKYLYEIARRHPYFYAPELLYYANKYNGVFQECVRACLSKPKFITKHF"
+
+# 使用胰蛋白酶的切割位点（K, R），并假设不切割位于P后的K或R
+digestion_sites = [i for i in range(len(protein_sequence)-1) if protein_sequence[i] in 'KR' and protein_sequence[i+1] != 'P']
+peptides = [protein_sequence[start:end+1] for start, end in zip([0]+digestion_sites, digestion_sites+[len(protein_sequence)])]
+
+# 显示肽段和它们的分子量
+for peptide in peptides:
+    mw = molecular_weight(peptide, seq_type='protein')
+    print(f"Peptide: {peptide} \nMolecular Weight: {mw:.2f} Da\n")
+
+# 随机选取一个肽段模拟数据库匹配过程
+random_peptide = random.choice(peptides)
+print(f"Randomly selected peptide for database search simulation: {random_peptide}")
+# 假设我们有一个简单的肽段数据库
+peptide_database = ["GLVLIAFSQYLQQCPF", "EIARRHPYFYAPELLY", "MKWVTFISLLFLFSSAYSRGV", "KHF"]
+match = random_peptide in peptide_database
+print(f"Database match found: {match}")
+
+
