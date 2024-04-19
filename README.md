@@ -128,4 +128,4 @@ print(f"Randomly selected peptide for database search simulation: {random_peptid
 peptide_database = ["GLVLIAFSQYLQQCPF", "EIARRHPYFYAPELLY", "MKWVTFISLLFLFSSAYSRGV", "KHF"]
 match = random_peptide in peptide_database
 print(f"Database match found: {match}")
-```python
+```
