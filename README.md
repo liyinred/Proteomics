@@ -97,6 +97,12 @@ M = (m/z) \times z - z \times m_e
 
 
 
+# Python 蛋白质组学自底向上分析 Demo
+
+## 环境准备
+
+确保Python环境中已安装`biopython`库。可以使用以下命令安装：
+
 ```python
 from Bio.Seq import Seq
 from Bio.SeqUtils import molecular_weight
