@@ -97,7 +97,7 @@ M = (m/z) \times z - z \times m_e
 
 
 
-
+```python
 from Bio.Seq import Seq
 from Bio.SeqUtils import molecular_weight
 from Bio import SeqIO
@@ -122,5 +122,4 @@ print(f"Randomly selected peptide for database search simulation: {random_peptid
 peptide_database = ["GLVLIAFSQYLQQCPF", "EIARRHPYFYAPELLY", "MKWVTFISLLFLFSSAYSRGV", "KHF"]
 match = random_peptide in peptide_database
 print(f"Database match found: {match}")
-
-
+```python
