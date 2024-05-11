@@ -129,6 +129,7 @@ CREATE TABLE raw_materials (
     PRIMARY KEY (id)
 ) ENGINE = MergeTree()
 ORDER BY id;
+
 -- 中间加工物表
 CREATE TABLE intermediate_products (
     id UInt64,
@@ -137,6 +138,7 @@ CREATE TABLE intermediate_products (
     PRIMARY KEY (id)
 ) ENGINE = MergeTree()
 ORDER BY id;
+
 -- 最终产品表
 CREATE TABLE final_products (
     id UInt64,
@@ -149,31 +151,39 @@ ORDER BY id;
 -- 向原料表插入数据
 INSERT INTO raw_materials (id, name, quantity) VALUES (1, '原料A', 100);
 INSERT INTO raw_materials (id, name, quantity) VALUES (2, '原料B', 150);
+
 -- 向中间加工物表插入数据
 INSERT INTO intermediate_products (id, name, quantity) VALUES (1, '中间加工物X', 200);
 INSERT INTO intermediate_products (id, name, quantity) VALUES (2, '中间加工物Y', 120);
+
 -- 向最终产品表插入数据
 INSERT INTO final_products (id, name, quantity) VALUES (1, '产品1', 50);
 INSERT INTO final_products (id, name, quantity) VALUES (2, '产品2', 80);
 
 -- 更新原料表中的数量
 UPDATE raw_materials SET quantity = 120 WHERE id = 1;
+
 -- 更新中间加工物表中的数量
 UPDATE intermediate_products SET quantity = 180 WHERE id = 2;
+
 -- 更新最终产品表中的数量
 UPDATE final_products SET quantity = 60 WHERE id = 1;
 
 -- 删除原料表中ID为2的数据
 DELETE FROM raw_materials WHERE id = 2;
+
 -- 删除中间加工物表中ID为1的数据
 DELETE FROM intermediate_products WHERE id = 1;
+
 -- 删除最终产品表中ID为2的数据
 DELETE FROM final_products WHERE id = 2;
 
 -- 查询原料表中的所有数据
 SELECT * FROM raw_materials;
+
 -- 查询中间加工物表中的所有数据
 SELECT * FROM intermediate_products;
+
 -- 查询最终产品表中的所有数据
 SELECT * FROM final_products;
 
