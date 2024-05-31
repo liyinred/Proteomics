@@ -202,6 +202,7 @@ IgG1是免疫球蛋白G（IgG）家族中的一个亚型，是人体血清中最
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/f5ae93e1-23c5-4ebf-93c6-f08612b93159)
 
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/2186e386-a657-4181-82b6-249ee61271ad)
+
 图片中的数据列出了两种不同状态下的抗体（E03258_Ab2 和 E03263_degly_Ab2）测量的分子量（Da）。
 
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/764c44b0-b7c1-43d5-9703-9d03e051e8c9)
