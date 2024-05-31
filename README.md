@@ -188,6 +188,11 @@ IgG1是免疫球蛋白G（IgG）家族中的一个亚型，是人体血清中最
 
 **Quotation（引文或引用）** 在学术写作、文学创作、演讲以及日常交流中都是一种常见的修辞手法。它是指引用他人说过的话、写过的文字或创作的作品，以支持自己的观点、增强说服力或提供背景信息。
 
+![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/27338ba7-90a2-4811-97a1-6fdf3f2879e8)
+![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/f5ae93e1-23c5-4ebf-93c6-f08612b93159)
+
+
+
 ## ClickHouse中记录原料、加工物和产品的库存信息，并实现快速增删改查
 ```sql
 -- 原料表
