@@ -206,6 +206,8 @@ IgG1是免疫球蛋白G（IgG）家族中的一个亚型，是人体血清中最
 图片中的数据列出了两种不同状态下的抗体（E03258_Ab2 和 E03263_degly_Ab2）测量的分子量（Da）。
 
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/764c44b0-b7c1-43d5-9703-9d03e051e8c9)
+![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/8bf069df-43cf-4737-ae48-a8f1237ea24d)
+
 
 
 ## ClickHouse中记录原料、加工物和产品的库存信息，并实现快速增删改查
