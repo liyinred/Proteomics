@@ -175,6 +175,7 @@ IgG1是免疫球蛋白G（IgG）家族中的一个亚型，是人体血清中最
 - 补体激活：IgG1可以激活补体系统，增强免疫反应。
 
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/14587a9f-07b0-48b7-84f2-3f24dabfc322)
+![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/4c07160a-4ae1-4482-a9c4-d277c489f319)
 
 
 ## 打开二硫键的目的
