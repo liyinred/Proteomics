@@ -30,7 +30,7 @@
 
 - **翻译（Translation）**：在细胞的核糖体上，mRNA模板被用来合成特定的蛋白质。这一过程涉及mRNA上的编码信息被翻译成氨基酸序列，进而形成蛋白质。
   
-<div align=center>![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/9c2303c8-710d-4ed7-8716-761302ee027c)
+<div align=center>![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/9c2303c8-710d-4ed7-8716-761302ee027c)</div>
 
 - **密码子（Codon）**：mRNA上由三个核苷酸组成的单位，对应于一个特定的氨基酸。密码子在翻译过程中指导特定氨基酸的加入到正在形成的蛋白质链中。
 
