@@ -83,6 +83,7 @@ M = (m/z) \times z - z \times m_e
   - **Light Chain**：轻链，是构成某些类型蛋白质（如抗体）的较小的多肽链。
   - **Heavy Chain**：重链，是同一蛋白质中较大的多肽链。
 - **作用**：在蛋白质测序中，特别是在研究抗体时，区分轻链和重链对于了解抗体的结构和功能至关重要。
+![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/91f74eb3-4384-4696-9319-f860fdf64aae)
 
 ## In Solution 和 In Gel
 - **定义**：
