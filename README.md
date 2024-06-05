@@ -12,6 +12,7 @@
 ## 蛋白质结构与分析术语
 
 - **序列（Sequence）**：指的是蛋白质或肽段中氨基酸的排列顺序，通常由一系列氨基酸的缩写字母表示。
+![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/75b4269e-1ec6-49bd-8810-4c69c8f6d2df)
 
 - **完整蛋白质（Intact Protein）**：指的是未经切割或消化的蛋白质分子，保持其原始的三维结构和生物功能。
 
