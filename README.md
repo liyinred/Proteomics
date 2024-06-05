@@ -7,6 +7,7 @@
 - **氨基（Amino Group）**：氨基酸中的组成部分，化学式为-NH2，是一个基本的含氮组。
 
 - **羧基（Carboxyl Group）**：氨基酸中的另一个组成部分，化学式为-COOH，表现为酸性。
+![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/4a51c8fc-1ebf-4dfe-83ba-cf0904a1fa07)
 
 ## 蛋白质结构与分析术语
 
