@@ -27,6 +27,7 @@
 - **转录（Transcription）**：在细胞中，DNA序列被转录成mRNA的过程。这是蛋白质合成的第一步，涉及到从DNA信息转换成RNA的过程。
 
 - **翻译（Translation）**：在细胞的核糖体上，mRNA模板被用来合成特定的蛋白质。这一过程涉及mRNA上的编码信息被翻译成氨基酸序列，进而形成蛋白质。
+![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/9c2303c8-710d-4ed7-8716-761302ee027c)
 
 - **密码子（Codon）**：mRNA上由三个核苷酸组成的单位，对应于一个特定的氨基酸。密码子在翻译过程中指导特定氨基酸的加入到正在形成的蛋白质链中。
 
@@ -35,8 +36,11 @@
 ## 特定化学键和蛋白质修饰
 
 - **肽键（Peptide Bond）**：连接两个氨基酸的羧基和氨基形成的共价键。这种键是通过一种脱水反应形成的，其中一个氨基酸的羧基与另一个氨基酸的氨基失去一个水分子而形成。
+  ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/d2e54286-3dd5-42ac-9fb0-0b1a68a44f2b)
+
 
 - **蛋白质翻译后修饰（Post-Translational Modification, PTM）**：蛋白质在翻译后发生的化学修改，包括磷酸化、泛素化、糖基化等。这些修饰能够影响蛋白质的功能、稳定性、位置和相互作用。
+![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/ff8024a3-c9e7-480e-b6a8-3ac7b4b77764)
 
 
 ## 自底向上蛋白质组学分析方法：
