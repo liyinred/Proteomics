@@ -194,6 +194,11 @@ IgG1是免疫球蛋白G（IgG）家族中的一个亚型，是人体血清中最
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/764c44b0-b7c1-43d5-9703-9d03e051e8c9)
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/8bf069df-43cf-4737-ae48-a8f1237ea24d)
 
+字母表示氨基酸序列，每三个字母代表一个氨基酸。
+
+IGHM_HUMAN：这是蛋白质的名称，其中IGHM表示免疫球蛋白重链μ，HUMAN表示这是人类（Homo sapiens）的序列。
+Immunoglobulin heavy constant mu：这是蛋白质的描述信息，表示该序列是免疫球蛋白重链μ。
+
 ## ClickHouse中记录原料、加工物和产品的库存信息，并实现快速增删改查
 ```sql
 -- 原料表
