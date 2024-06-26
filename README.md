@@ -166,6 +166,8 @@ IgG1是免疫球蛋白G（IgG）家族中的一个亚型，是人体血清中最
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/14587a9f-07b0-48b7-84f2-3f24dabfc322)
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/4c07160a-4ae1-4482-a9c4-d277c489f319)
 
+![image](https://github.com/liyinred/Proteomics/assets/83255231/9f79e355-c32f-47f9-b79d-d78ffca6ad54)
+
 
 ## 打开二硫键的目的
 - 结构解析：二硫键（-S-S-）是蛋白质二级、三级和四级结构的重要组成部分。它们在蛋白质折叠和维持稳定结构中起着关键作用。通过还原剂如二硫苏糖醇（DTT）或2-巯基乙醇打开二硫键，可以使蛋白质解折叠，从而更容易进行后续的结构解析。
