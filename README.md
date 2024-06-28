@@ -212,72 +212,12 @@ IgG1是免疫球蛋白G（IgG）家族中的一个亚型，是人体血清中最
 IGHM_HUMAN：这是蛋白质的名称，其中IGHM表示免疫球蛋白重链μ，HUMAN表示这是人类（Homo sapiens）的序列。
 Immunoglobulin heavy constant mu：这是蛋白质的描述信息，表示该序列是免疫球蛋白重链μ。
 
-## ClickHouse中记录原料、加工物和产品的库存信息，并实现快速增删改查
-```sql
--- 原料表
-CREATE TABLE raw_materials (
-    id UInt64,
-    name String,
-    quantity UInt32,
-    PRIMARY KEY (id)
-) ENGINE = MergeTree()
-ORDER BY id;
+人类免疫球蛋白G（IgG）中的重链序列具有特定的结构特征。重链的可变区（VH）通常从一个保守的氨基酸序列开始，以Q（谷氨酰胺）作为起始氨基酸，而恒定区（CH）在PGK（脯氨酸-甘氨酸-赖氨酸）处结束。
 
--- 中间加工物表
-CREATE TABLE intermediate_products (
-    id UInt64,
-    name String,
-    quantity UInt32,
-    PRIMARY KEY (id)
-) ENGINE = MergeTree()
-ORDER BY id;
+IgG_heavy_high_mass通常指的是在分析过程中检测到的IgG重链的高分子质量状态。这种状态可能是由于重链上有多个糖基化位点或其他翻译后修饰（post-translational modifications, PTMs）所引起的。这些修饰可能包括：
+- 糖基化（Glycosylation）： 糖基化是IgG重链上最常见的翻译后修饰，通常发生在恒定区（CH）的某些特定位点。这会增加分子的总体质量。
+- 磷酸化（Phosphorylation）： 磷酸化可以改变蛋白质的质量和电荷特性。
+- 羟基化（Hydroxylation）： 这种修饰也会导致分子质量的变化。
 
--- 最终产品表
-CREATE TABLE final_products (
-    id UInt64,
-    name String,
-    quantity UInt32,
-    PRIMARY KEY (id)
-) ENGINE = MergeTree()
-ORDER BY id;
-
--- 向原料表插入数据
-INSERT INTO raw_materials (id, name, quantity) VALUES (1, '原料A', 100);
-INSERT INTO raw_materials (id, name, quantity) VALUES (2, '原料B', 150);
-
--- 向中间加工物表插入数据
-INSERT INTO intermediate_products (id, name, quantity) VALUES (1, '中间加工物X', 200);
-INSERT INTO intermediate_products (id, name, quantity) VALUES (2, '中间加工物Y', 120);
-
--- 向最终产品表插入数据
-INSERT INTO final_products (id, name, quantity) VALUES (1, '产品1', 50);
-INSERT INTO final_products (id, name, quantity) VALUES (2, '产品2', 80);
-
--- 更新原料表中的数量
-UPDATE raw_materials SET quantity = 120 WHERE id = 1;
-
--- 更新中间加工物表中的数量
-UPDATE intermediate_products SET quantity = 180 WHERE id = 2;
-
--- 更新最终产品表中的数量
-UPDATE final_products SET quantity = 60 WHERE id = 1;
-
--- 删除原料表中ID为2的数据
-DELETE FROM raw_materials WHERE id = 2;
-
--- 删除中间加工物表中ID为1的数据
-DELETE FROM intermediate_products WHERE id = 1;
-
--- 删除最终产品表中ID为2的数据
-DELETE FROM final_products WHERE id = 2;
-
--- 查询原料表中的所有数据
-SELECT * FROM raw_materials;
-
--- 查询中间加工物表中的所有数据
-SELECT * FROM intermediate_products;
-
--- 查询最终产品表中的所有数据
-SELECT * FROM final_products;
-
-```
+IgG_heavy_low_mass则指的是IgG重链的低分子质量状态。这通常表示该重链没有经过或仅经过少量的翻译后修饰。这种低质量状态的重链通常与高质量状态的重链相比，缺少一些修饰，如糖基化。
+在某些情况下，IgG重链的低质量状态还可能是由于蛋白质在体外处理过程中发生了降解，或者是样本中存在一些部分缺失的重链片段。
