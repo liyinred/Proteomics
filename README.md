@@ -183,10 +183,8 @@ IgG1是免疫球蛋白G（IgG）家族中的一个亚型，是人体血清中最
 - 中和作用：IgG1可以中和病毒、细菌毒素等病原体。
 - 调理吞噬作用：IgG1通过与Fc受体结合，促进吞噬细胞识别和清除病原体。
 - 补体激活：IgG1可以激活补体系统，增强免疫反应。
-
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/14587a9f-07b0-48b7-84f2-3f24dabfc322)
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/4c07160a-4ae1-4482-a9c4-d277c489f319)
-
 ![image](https://github.com/liyinred/Proteomics/assets/83255231/9f79e355-c32f-47f9-b79d-d78ffca6ad54)
 
 ## IgM的结构
@@ -217,14 +215,11 @@ IgG1是免疫球蛋白G（IgG）家族中的一个亚型，是人体血清中最
 **Handover sheet（交接单）** 是一种记录和传递信息的文件，通常在工作班次交接、项目管理、医疗护理以及其他需要明确职责和任务交接的场合中使用。
 
 **Quotation（引文或引用）** 在学术写作、文学创作、演讲以及日常交流中都是一种常见的修辞手法。它是指引用他人说过的话、写过的文字或创作的作品，以支持自己的观点、增强说服力或提供背景信息。
-
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/27338ba7-90a2-4811-97a1-6fdf3f2879e8)
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/f5ae93e1-23c5-4ebf-93c6-f08612b93159)
-
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/2186e386-a657-4181-82b6-249ee61271ad)
 
 图片中的数据列出了两种不同状态下的抗体（E03258_Ab2 和 E03263_degly_Ab2）测量的分子量（Da）。
-
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/764c44b0-b7c1-43d5-9703-9d03e051e8c9)
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/8bf069df-43cf-4737-ae48-a8f1237ea24d)
 
@@ -244,11 +239,11 @@ Immunoglobulin heavy constant mu：这是蛋白质的描述信息，表示该序
 在某些情况下，IgG重链的低质量状态还可能是由于蛋白质在体外处理过程中发生了降解，或者是样本中存在一些部分缺失的重链片段。
 
 1. de novo（意为“从头开始”）在蛋白质研究中有两种常见的应用：
-- de novo蛋白质设计：指从头设计全新的蛋白质结构，而不是基于已有的天然蛋白质。这通常涉及计算机辅助设计和合成生物学，以创建具有特定功能的新蛋白质。
-- de novo测序：指没有参考序列的情况下，通过质谱技术直接从实验数据中推导出蛋白质或多肽的序列。这对于未知蛋白质的研究尤为重要。
+   - de novo蛋白质设计：指从头设计全新的蛋白质结构，而不是基于已有的天然蛋白质。这通常涉及计算机辅助设计和合成生物学，以创建具有特定功能的新蛋白质。
+   - de novo测序：指没有参考序列的情况下，通过质谱技术直接从实验数据中推导出蛋白质或多肽的序列。这对于未知蛋白质的研究尤为重要。
 2. Assemble 在蛋白质研究中通常指的是将短的DNA或RNA序列片段拼接成完整序列的过程，这个过程在基因组学和转录组学研究中尤为关键。常见的组装方法包括：
-- 基于重叠的片段组装（Overlap-Layout-Consensus, OLC）：用于长读长测序数据，通过识别片段之间的重叠区域进行组装。
-- de Bruijn图组装：用于短读长测序数据，通过构建k-mer图进行组装。
+   - 基于重叠的片段组装（Overlap-Layout-Consensus, OLC）：用于长读长测序数据，通过识别片段之间的重叠区域进行组装。
+   - de Bruijn图组装：用于短读长测序数据，通过构建k-mer图进行组装。
 在蛋白质组学中，组装通常涉及将短的肽段组装成完整的蛋白质序列。这可以帮助研究人员识别蛋白质的结构和功能。
 
 3. BLAST (Basic Local Alignment Search Tool)是一种用于比较生物序列信息的算法。它可以快速找到与输入序列（例如DNA、RNA或蛋白质）相似的序列。BLAST在蛋白质研究中的应用包括：
