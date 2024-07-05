@@ -223,12 +223,12 @@ IgG1是免疫球蛋白G（IgG）家族中的一个亚型，是人体血清中最
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/764c44b0-b7c1-43d5-9703-9d03e051e8c9)
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/8bf069df-43cf-4737-ae48-a8f1237ea24d)
 
-字母表示氨基酸序列，每三个字母代表一个氨基酸。
+字母表示氨基酸序列，**每三个字母代表一个氨基酸**。
 
-IGHM_HUMAN：这是蛋白质的名称，其中IGHM表示免疫球蛋白重链μ，HUMAN表示这是人类（Homo sapiens）的序列。
-Immunoglobulin heavy constant mu：这是蛋白质的描述信息，表示该序列是免疫球蛋白重链μ。
+**IGHM_HUMAN**：这是蛋白质的名称，其中IGHM表示免疫球蛋白重链μ，HUMAN表示这是人类（Homo sapiens）的序列。
+**Immunoglobulin heavy constant mu**：这是蛋白质的描述信息，表示该序列是免疫球蛋白重链μ。
 
-人类免疫球蛋白G（IgG）中的重链序列具有特定的结构特征。重链的可变区（VH）通常从一个保守的氨基酸序列开始，以Q（谷氨酰胺）作为起始氨基酸，而恒定区（CH）在PGK（脯氨酸-甘氨酸-赖氨酸）处结束。
+**人类免疫球蛋白G（IgG）** 中的重链序列具有特定的结构特征。重链的可变区（VH）通常从一个保守的氨基酸序列开始，**以Q（谷氨酰胺）作为起始氨基酸，而恒定区（CH）在PGK（脯氨酸-甘氨酸-赖氨酸）处结束**。
 
 **IgG_heavy_high_mass**通常指的是在分析过程中检测到的IgG重链的高分子质量状态。这种状态可能是由于重链上有多个糖基化位点或其他翻译后修饰（post-translational modifications, PTMs）所引起的。这些修饰可能包括：
 - 糖基化（Glycosylation）： 糖基化是IgG重链上最常见的翻译后修饰，通常发生在恒定区（CH）的某些特定位点。这会增加分子的总体质量。
