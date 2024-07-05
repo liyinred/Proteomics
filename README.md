@@ -7,7 +7,6 @@
 - **氨基（Amino Group）**：氨基酸中的组成部分，化学式为-NH2，是一个基本的含氮组。
 
 - **羧基（Carboxyl Group）**：氨基酸中的另一个组成部分，化学式为-COOH，表现为酸性。
-
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/4a51c8fc-1ebf-4dfe-83ba-cf0904a1fa07)
 
 ## 蛋白质结构与分析术语
@@ -15,7 +14,6 @@
 - **序列（Sequence）**：指的是蛋白质或肽段中氨基酸的排列顺序，通常由一系列氨基酸的缩写字母表示。
 
 - **蛋白质螺旋结构（Protein Helix Structure）**：蛋白质的一种二级结构，通常指α-螺旋，它是由氨基酸残基通过氢键形成的紧密卷曲的结构。这种结构在许多蛋白质中都能找到，对蛋白质的稳定性和功能具有重要作用。
-
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/75b4269e-1ec6-49bd-8810-4c69c8f6d2df)
 
 - **完整蛋白质（Intact Protein）**：指的是未经切割或消化的蛋白质分子，保持其原始的三维结构和生物功能。
@@ -29,7 +27,6 @@
 - **转录（Transcription）**：在细胞中，DNA序列被转录成mRNA的过程。这是蛋白质合成的第一步，涉及到从DNA信息转换成RNA的过程。
 
 - **翻译（Translation）**：在细胞的核糖体上，mRNA模板被用来合成特定的蛋白质。这一过程涉及mRNA上的编码信息被翻译成氨基酸序列，进而形成蛋白质。
-  
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/9c2303c8-710d-4ed7-8716-761302ee027c)
 
 - **密码子（Codon）**：mRNA上由三个核苷酸组成的单位，对应于一个特定的氨基酸。密码子在翻译过程中指导特定氨基酸的加入到正在形成的蛋白质链中。
@@ -37,13 +34,10 @@
 ## 特定化学键和蛋白质修饰
 
 - **肽键（Peptide Bond）**：连接两个氨基酸的羧基和氨基形成的共价键。这种键是通过一种脱水反应形成的，其中一个氨基酸的羧基与另一个氨基酸的氨基失去一个水分子而形成。
-
   ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/d2e54286-3dd5-42ac-9fb0-0b1a68a44f2b)
 
 - **蛋白质翻译后修饰（Post-Translational Modification, PTM）**：蛋白质在翻译后发生的化学修改，包括磷酸化、泛素化、糖基化等。这些修饰能够影响蛋白质的功能、稳定性、位置和相互作用。
-
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/ff8024a3-c9e7-480e-b6a8-3ac7b4b77764)
-
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/cbdc815a-4298-49ee-b269-569b0f670d77)
 
 ### 蛋白质样本处理流程
@@ -82,12 +76,10 @@
 
 自底向上的蛋白质组学涉及到在质谱分析之前蛋白质的水解消化。术语自下而上意味着有关组成蛋白质的信息是由单独鉴定的片段肽重建的。
 对于自底向上的蛋白质组学流程图，采用凝胶法，通过二维电泳分离蛋白质混合物。在斑点可视化后，从凝胶中提取蛋白质，消化，并进行质谱分析，通过数据库搜索进一步鉴定。采用无凝胶法，将蛋白质混合物直接消化为多肽混合物，通过多维分离方法分离。然后用质谱分析肽。利用数据库搜索从生成的质谱中鉴定蛋白质。
-
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/25d48d1f-e78b-4095-8039-a0323840514b)
 
 ## 自顶向下蛋白质组学分析方法：
 自上而下的蛋白质组学可以从复杂的生物系统中描述完整的蛋白质。这种方法通常允许接近100%的序列覆盖和蛋白质形态的全部特征，蛋白质形态是由遗传变异、可变剪接和翻译后修饰组合而成的特定分子形式。串联质谱的裂解是通过电子俘获解离(ECD)或电子转移解离(ETD)完成的。蛋白质通常被电喷雾电离并在傅立叶变换离子回旋共振或四极离子阱质谱仪中捕获。
-
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/a83c8659-b99b-4008-b63b-bca6b5740327)
 
 # 蛋白质多组学关键术语及其在蛋白质测序中的作用
@@ -109,7 +101,6 @@
   - **Light Chain**：轻链，是构成某些类型蛋白质（如抗体）的较小的多肽链。
   - **Heavy Chain**：重链，是同一蛋白质中较大的多肽链。
 - **作用**：在蛋白质测序中，特别是在研究抗体时，区分轻链和重链对于了解抗体的结构和功能至关重要。
-- 
 ![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/91f74eb3-4384-4696-9319-f860fdf64aae)
 
 ## In Solution 和 In Gel
