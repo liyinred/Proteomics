@@ -43,7 +43,7 @@
 
 - **密码子（Codon）**：mRNA上由三个核苷酸组成的单位，对应于一个特定的氨基酸。密码子在翻译过程中指导特定氨基酸的加入到正在形成的蛋白质链中
 
-![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/9c2303c8-710d-4ed7-8716-761302ee027c)
+![image](https://github.com/liyinred/Proteomics/assets/83255231/dbd2878f-a3aa-4e2e-9d8f-0c10f861c024)
 
 **组成单体：**
 - DNA序列：由四种脱氧核苷酸（腺嘌呤A、胞嘧啶C、鸟嘌呤G、胸腺嘧啶T）组成。DNA中的四种碱基通过氢键互相配对，腺嘌呤（A）与胸腺嘧啶（T）配对，胞嘧啶（C）与鸟嘌呤（G）配对。这种碱基配对使DNA复制过程中能够准确复制遗传信息。两条DNA链是反向平行的，一条链的5'端与另一条链的3'端相对。
