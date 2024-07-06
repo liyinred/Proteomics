@@ -5,7 +5,8 @@
 - **氨基（Amino Group）**：氨基酸中的组成部分，化学式为-NH2，是一个基本的含氮组。
 
 - **羧基（Carboxyl Group）**：氨基酸中的另一个组成部分，化学式为-COOH，表现为酸性。
-![image](https://github.com/liyinred/Proteomics_Wenhao/assets/83255231/4a51c8fc-1ebf-4dfe-83ba-cf0904a1fa07)
+![image](https://github.com/liyinred/Proteomics/assets/83255231/b6157d39-1d5f-4a41-8e74-7937a236191f)
+
 
 - **序列（Sequence）**：指的是蛋白质或肽段中氨基酸的排列顺序，通常由一系列氨基酸的缩写字母表示。
 
