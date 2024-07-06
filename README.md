@@ -5,8 +5,21 @@
 - **氨基（Amino Group）**：氨基酸中的组成部分，化学式为-NH2，是一个基本的含氮组。
 
 - **羧基（Carboxyl Group）**：氨基酸中的另一个组成部分，化学式为-COOH，表现为酸性。
-![image](https://github.com/liyinred/Proteomics/assets/83255231/b6157d39-1d5f-4a41-8e74-7937a236191f)
 
+![image](https://github.com/liyinred/Proteomics/assets/83255231/b6157d39-1d5f-4a41-8e74-7937a236191f)
+这张图片展示了氨基酸的不同类型，根据其侧链的性质将其分为三类：
+1. **疏水性非极性侧链（Nonpolar side chains; hydrophobic）**：
+    - 这些氨基酸的侧链不喜欢水（疏水性），通常在蛋白质的内部。
+    - 例子包括：甘氨酸 (Glycine, Gly, G)、丙氨酸 (Alanine, Ala, A)、缬氨酸 (Valine, Val, V)、亮氨酸 (Leucine, Leu, L)、异亮氨酸 (Isoleucine, Ile, I)、甲硫氨酸 (Methionine, Met, M)、苯丙氨酸 (Phenylalanine, Phe, F)、色氨酸 (Tryptophan, Trp, W)、脯氨酸 (Proline, Pro, P)。
+
+2. **亲水性极性侧链（Polar side chains; hydrophilic）**：
+    - 这些氨基酸的侧链喜欢水（亲水性），通常在蛋白质的表面与水接触。
+    - 例子包括：丝氨酸 (Serine, Ser, S)、苏氨酸 (Threonine, Thr, T)、半胱氨酸 (Cysteine, Cys, C)、酪氨酸 (Tyrosine, Tyr, Y)、天冬酰胺 (Asparagine, Asn, N)、谷氨酰胺 (Glutamine, Gln, Q)。
+
+3. **带电侧链（Electrically charged side chains; hydrophilic）**：
+    - 这些氨基酸的侧链带电荷（亲水性），根据电荷的性质进一步分为酸性（负电荷）和碱性（正电荷）。
+    - **酸性（负电荷）**：天冬氨酸 (Aspartic acid, Asp, D)、谷氨酸 (Glutamic acid, Glu, E)。
+    - **碱性（正电荷）**：赖氨酸 (Lysine, Lys, K)、精氨酸 (Arginine, Arg, R)、组氨酸 (Histidine, His, H)。
 
 - **序列（Sequence）**：指的是蛋白质或肽段中氨基酸的排列顺序，通常由一系列氨基酸的缩写字母表示。
 
