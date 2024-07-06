@@ -7,6 +7,7 @@
 - **羧基（Carboxyl Group）**：氨基酸中的另一个组成部分，化学式为-COOH，表现为酸性。
 
 ![image](https://github.com/liyinred/Proteomics/assets/83255231/b6157d39-1d5f-4a41-8e74-7937a236191f)
+
 这张图片展示了氨基酸的不同类型，根据其侧链的性质将其分为三类：
 1. **疏水性非极性侧链（Nonpolar side chains; hydrophobic）**：
     - 这些氨基酸的侧链不喜欢水（疏水性），通常在蛋白质的内部。
